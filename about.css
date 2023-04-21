@@ -1,0 +1,13 @@
+.text1 {
+  color: #000;
+}
+
+#Citation {
+  text-align: center;
+  width: 15cm;
+  height: 50px;
+  border-radius: 5%;
+  color: silver;
+  background: #333;
+  border: thick double silver;
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1500px;
+  cursor: url(beer.png), auto;
+  background: url(https://images.prom.ua/3733180075_foto-fon-vinilovij-patriotichnij.jpg);
+  background-size: cover;
+  align-content: b;
+}
+
+#some_block {
+  background: red;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+#header,
+#footer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-bottom: 5px solid silver;
+  background: #333;
+  color: #fff;
+  line-height: 100px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+#nav {
+  list-style: none;
+  display: inline;
+  float: left;
+  width: 10%;
+  margin-left: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  height: auto;
+}
+
+#nav li {
+  background: #333;
+  color: #fff;
+  border: 1px solid silver;
+  padding: 10 220px;
+}
+
+#nav li:hover {
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  cursor: default;
+}
+
+#main {
+  width: auto;
+  padding: 10%;
+  background: #333;
+  color: #fff;
+  border: 2px solid silver;
+  padding: 20px 2.5%;
+  float: left;
+  position: relative;
+  z-index: 1;
+  cursor: text;
+  margin-left: 20px;
+}
+
+#footer {
+  margin-bottom: 0;
+  border-bottom: 0;
+  border-top: 5px solid silver;
+  margin-top: 100%;
+  height: 20%;
+  text-align: left;
+}
+
+.footer-text {
+  color: silver;
+  margin-left: 10px;
+  border: 3px solid black;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+#building {
+  padding-top: 25%;
+  padding-left: 20px;
+  height: 100px;
+  width: 300px;
+}
+
+.building-img {
+  color: white;
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+}
